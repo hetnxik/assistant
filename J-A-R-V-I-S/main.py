@@ -14,17 +14,16 @@ import ss
 qwerty = 0
 while qwerty == 0:
     try:
-        # r = sr.Recognizer()  # Speech Recognition Code
-        # with sr.Microphone() as source:
-        #     print('speak something')
-        #     audio = r.listen(source, phrase_time_limit = 10)
-        #     b = r.recognize_google(audio)
-        #     a = '{}'.format(b)
-        #     print('you said : {}'.format(b))
-        #     command = a.lower()
-        #     print(command)
+         r = sr.Recognizer()  # Speech Recognition Code
+         with sr.Microphone() as source:
+             print('speak something')
+             audio = r.listen(source, phrase_time_limit = 10)
+             b = r.recognize_google(audio)
+             a = '{}'.format(b)
+             print('you said : {}'.format(b))
+             command = a.lower()
+             print(command)
 
-        command = input('cmd : ').lower()
         if command == 'open spotify':
             sf.launcher()
 
