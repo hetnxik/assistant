@@ -17,8 +17,8 @@ def sstake():
     engine.runAndWait()
     os.system("screencapture ss/screen.png")
 
-    source_dir = '/Users/mukti/Documents/Projects/J-A-R-V-I-S/ss/screen.png'
-    target_dir = '/Users/mukti/Desktop'
+    source_dir = '/directory/till/J-A-R-V-S/J-A-R-V-I-S/ss/screen.png'
+    target_dir = '/path/to/save/the/screenshot'
 
     shutil.copy(source_dir, target_dir)
     engine.say('Screenshot saved on desktop as screen.png please change its name before taking another screenshot else it will get deleted.')
