@@ -5,7 +5,7 @@ def launcher():
     engine = pyttsx3.init()
     engine.say('Opening Filmora X')
     engine.runAndWait()
-    os.system("open /Applications/Video/Wondershare\ Filmora\ X.app")
+    os.system("open /path/to/FilmoraX")
 
 
 
