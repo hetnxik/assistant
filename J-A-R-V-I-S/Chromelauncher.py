@@ -9,10 +9,10 @@ engine = pyttsx3.init()
 def launcher():
     engine.say('Opening Chrome')
     engine.runAndWait()
-    os.system("open /Applications/Google\ Chrome.app")
+    os.system("open /path/to/chrome")
 
 def venge():
-    engine.say('opening venge on Opera GX')
+    engine.say('opening venge ')
     engine.runAndWait()
     wb.open('https://venge.io', new = 2)
 
